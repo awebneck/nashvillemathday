@@ -2,13 +2,20 @@
 %html{:lang => "en"}
   %head
     %title Nashville Math Day
-    %meta{:content => "A day celebrating the joy of mathematics and problem-solving, for any and all who might be interested, in the beautiful city of Nashville", :name => "description"}
+    %meta{:content => "A day celebrating the joy of mathematics and problem-solving", :name => "description"}
     %meta{:content => "Jeremy Holland", :name => "author"}
     %link{:href => "/css/bootstrap.min.css", :media => "screen", :rel => "stylesheet"}
     %link{:href => "/css/style.css", :media => "screen", :rel => "stylesheet"}
+    %script{:type => "text/javascript", :src => "http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"}
   %body
     .container
+      .navbar.navbar-fixed-top
+        .navbar-inner
+          %a.brand{:href => "/"} Nashville Math Day
+      %h1.text-center.logo $$\sum_{k=0}^{\infty}\text{Nashville Math Day}$$
+      %h3.subtitle.text-center A day celebrating the joy of mathematics and problem-solving
       .row.span12
-        %h1.text-center Coming Soon!
+        %hr
+      %h2.text-center Information coming soon!
     %script{:type => "text/javascript", :src => "/js/jquery-1.9.1.min.js"}
     %script{:type => "text/javascript", :src => "/js/bootstrap.min.js"}

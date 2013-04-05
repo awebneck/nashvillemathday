@@ -1,0 +1,22 @@
+body {
+  padding-top: 40px;
+  background-image: url(/img/bg.jpg);
+}
+
+.navbar-inner a.brand {
+  margin-left: 0;
+}
+
+h1.logo {
+  font-size: 60px;
+}
+
+.container {
+  background-color: #222222;
+  border: 1px solid #444444;
+  padding-bottom: 30px;
+}
+
+.row.span12 hr {
+  width: 894px;
+}

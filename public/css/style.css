@@ -1,6 +1,7 @@
 body {
   padding-top: 40px;
   background-image: url(/img/bg.jpg);
+  background-attachment: fixed;
 }
 
 .navbar-inner a.brand {
@@ -17,6 +18,10 @@ h1.logo {
   padding-bottom: 30px;
 }
 
-.row.span12 hr {
-  width: 894px;
+p {
+  text-indent: 2em;
+}
+
+hr {
+  border-color: #333333;
 }

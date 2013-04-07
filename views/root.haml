@@ -12,10 +12,75 @@
       .navbar.navbar-fixed-top
         .navbar-inner
           %a.brand{:href => "/"} Nashville Math Day
-      %h1.text-center.logo $$\sum_{k=0}^{\infty}\text{Nashville Math Day}$$
-      %h3.subtitle.text-center A day celebrating the joy of mathematics and problem-solving
-      .row.span12
-        %hr
-      %h2.text-center Information coming soon!
+          %ul.nav
+            %li
+              %a{:href => "#what"} What?
+            %li
+              %a{:href => "#who"} Who?
+            %li
+              %a{:href => "#how"} How?
+            %li
+              %a{:href => "#when"} When?
+            %li
+              %a{:href => "#where"} Where?
+            %li
+              %a{:href => "#want"} Want to help?
+      .row
+        .span12
+          %h1.text-center.logo $$\sum_{k=0}^{\infty}\text{Nashville Math Day}$$
+          %h3.subtitle.text-center A day celebrating the joy of mathematics and problem-solving
+      .row
+        .span10.offset1
+          %hr
+      .row
+        .span10.offset1
+          %h2.text-center#what What is it?
+          %p Well, for now, it's an experiment. Here's the upshot: get a passel of cool people having differing backgrounds and skillsets, and try to solve some math problems collaboratively. The event is open to absolutely anyone who has an interest in participating, no matter their experience; the hope is that everyone will have fun, learn something new, and hopefully make some new friends!
+          %hr
+      .row
+        .span5.offset1
+          %h2.text-center#how Who is it for?
+          %p Anyone. We're going to have a wide variety of problems for a wide variety of skillsets. Do you have an advanced degree in non-Euclidean topology? We'll have something for you. Do you struggle with algebra?  We'll have something for you too.
+          %p That said, one absolute requirement is that if you understand a subject better than your teammate, you should take the time to help them learn. Educating others hands-down takes precedence over acquiring a solution. For this reason, the organizers (and anyone else who wants to volunteer!) will not be participating in a team themselves, but will serve as wandering tutor(s) there to help out anyone who's having trouble to the best of their ability.
+          %p There's absolutely no pressure. If you start off in one team but find yourself in over your head, feel free to find a new one, or grab one of the organizers and we'll tackle something together. If your team solves your first problem handily, come grab a new one. Fun and learning are higher priorities than solutions.
+        .span5
+          %h2.text-center#how How will it work?
+          %p Based on responses from the initial interest survey (thanks to all those who participated!), it sounds like folks would like something pretty informal. So here's the (tentative) plan:
+          %p We'll officially open the doors at 9:00am, and we'll spend about an hour or so snacking on the provided coffee and donuts while we meet our fellow participants and folks will be given the opportunity to tell us about some problems they'd like to tackle. There is no real restriction on the kinds of problems you can bring, and we'll provide a grab-bag of other problems from a spectrum of disciplines for those who don't already have something in mind, as nobody is under any obligation to do so. Once we've said our peace on that score, we'll break off into teams of folks who want to tackle a specific problem, and off we'll go.
+          %p At noon, we'll break for an hour for lunch. At 1:00pm, we'll come back and keep on as before until 4:00pm, when we'll all come together as a group and talk about our progress, our solutions and methods, what we learned, and anything else you want to discuss.
+          %p At 5:00pm, we'll call it the official end of the day - informal social drinks afterwards are not required, but recommended.
+      .row
+        .span10.offset1
+          %hr
+      .row
+        .span5.offset1
+          %h2.text-center#when When is it?
+          %p A date has yet to be set with finality, but we're probably going to shoot for some Saturday in May or June, 2013. If this first go-round is a success, we may make this a regular thing, but we'll cross that bridge when we get there. Check back here soon for the final date!
+        .span5
+          %h2.text-center#where Where is it?
+          %p
+            Providing the ultimate headcount doesn't exceed a certain threshold,
+            %a{:href => "http://www.centresource.com", :target => "_blank"} Centresource
+            has graciously agreed to allow us to use their offices, located in an awesome-looking old house at
+            %a{:href => "https://maps.google.com/maps?q=1313+4th+Avenue+North,+Nashville,+TN&hl=en&ie=UTF8&view=map&ftt=9&geocode=FbwHKAIdQLfT-g&split=0&sll=36.177852,-86.788288&sspn=0.000000,0.000000&hq=&hnear=1313+4th+Ave+N,+Nashville,+Davidson,+Tennessee+37208&t=m&z=17&vpsrc=6", :target => "_blank"} 1313 4th Avenue North in Germantown
+      .row
+        .span10.offset1
+          %hr
+      .row
+        .span10.offset1
+          %h2.text-center#want Want to help?
+          %p If you're on the more experienced side of things and would be interested in so doing, we still need a volunteer to act as one more Wandering Tutor! This has little requirement, save that you preclude yourself from participating in a team directly, and make yourself available to help out anyone who might need it to the best of your ability. If interested, please contact the organizers (see below)!
+          %hr
+      .row
+        .span10.offset1
+          %h2.text-center#contact Questions?
+          %p
+            Have questions? Just give Jeremy Holland, our organizer, a shout on twitter (
+            %a{:href => "http://www.twitter.com/awebneck", :target => "_blank"}<> @awebneck
+            ), or via email at
+            %a{:href => "mailto:jeremy@nashvillemathday.com", :target => "_blank"} jeremy@nashvillemathday.com
+            \. Hope to see you there!
+
+
     %script{:type => "text/javascript", :src => "/js/jquery-1.9.1.min.js"}
     %script{:type => "text/javascript", :src => "/js/bootstrap.min.js"}
